@@ -1,6 +1,9 @@
 #  PROJETO DESENVOLVIDO COM AS AULAS DA ROCKETSEAT 
-### MODO DARK (Padrão)
-![Modo Dark](/src/imagens/Projeto-Completo.jpg)
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+### MODO Light e Dark
+![Modo Dark](/Preview.png)
 
 ### MODO Light
-![Modo Light](/src/imagens/Projeto-Completo-Light.jpg)
