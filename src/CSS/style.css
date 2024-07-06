@@ -27,7 +27,7 @@
     color: #F7AB00;
 }
 
-/* LUA */  
+/* LUA */
 .bi-moon-fill {
     color: #2491d1;
 }
@@ -44,14 +44,13 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    
+
 }
 
-@media (max-height: 585px){
-    body{
+@media (max-height: 585px) {
+    body {
         height: 170vh;
     }
-
 }
 
 #container {
@@ -83,7 +82,8 @@ body {
 }
 
 #switch {
-    height: 35px;
+    max-height: 35px;
+    min-height: 35px;
     width: 70px;
     margin: 20px 0px;
     background-color: var(--fundo-botao);
@@ -91,11 +91,8 @@ body {
     border-radius: 50px;
     display: flex;
     align-items: center;
-    justify-content: start;
-}
-
-.claro #switch {
-    justify-content: end;
+    position: relative;
+    
 }
 
 #botao {
@@ -109,6 +106,21 @@ body {
     align-items: center;
     justify-content: center;
     transform: scale(.8);
+    position: absolute;
+    left: 0px;
+}
+
+.claro #botao {
+    left: 50%;
+}
+
+/* SOMBRA NO  BOTÃO */
+.claro #botao:hover {
+    box-shadow: 0px 0px 10px rgba(26, 26, 26, 0.171);
+}
+
+#botao:hover {
+    box-shadow: 0px 0px 10px rgba(161, 161, 161, 0.26);
 }
 
 #lista {
