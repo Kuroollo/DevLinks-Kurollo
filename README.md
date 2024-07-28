@@ -5,5 +5,3 @@
 - JavaScript
 ### MODO Light e Dark
 ![Modo Dark](/Preview.png)
-
-### MODO Light
